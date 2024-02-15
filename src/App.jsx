@@ -1,8 +1,12 @@
-
+import Footer from "./Footer";
+import Header from "./Header";
+import Mainarea from "./Mainarea";
 function App() {
   return (
     <div className="mybox">
-      <h1>Welcome to Edupoly</h1>
+      <Header></Header>
+      <Mainarea></Mainarea>
+      <Footer></Footer>
     </div>
   );
 }
