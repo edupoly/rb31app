@@ -4,3 +4,12 @@
   border:2px solid;
   border-radius: 10px;
 }
+#dd,#de{
+  display: none;
+  position: absolute;
+  bottom:0px;
+  right:0px;
+  border:2px solid;
+  background-color: lightblue;
+  padding:20px;
+}
