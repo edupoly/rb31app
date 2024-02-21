@@ -4,3 +4,43 @@
   border:2px solid;
   border-radius: 10px;
 }
+.cartList{
+  list-style: none;
+}
+.cartItem{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+
+.cartItem img{
+  width:100px !important;
+  padding:20px;
+  
+}
+.itemTitle{
+  width:40%;
+}
+.cartItem button{
+  border-radius: 50%;
+  margin:10px;
+}
+.cartItem .itemPrice{
+  width: 10%;
+  text-align: left;
+}
+.itemTotal{
+  width:10%;
+  text-align: right;
+}
+.cartTotal{
+  text-align: right;
+  width: 65%;
+}
+
+.card img{
+  width:100%;
+  height:200px;
+  object-fit: scale-down;
+}
