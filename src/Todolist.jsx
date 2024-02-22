@@ -26,3 +26,15 @@ function Todolist() {
 }
 
 export default Todolist
+/*
+  types of components
+    functional
+    classbased
+    smart(container)(controlled)
+      todolist component
+    dumb(presentational)(uncontrolled)
+      todo component
+
+
+
+*/
