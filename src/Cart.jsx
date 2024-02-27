@@ -59,3 +59,15 @@ function Cart() {
 }
 
 export default Cart
+/*
+    store
+        state
+
+        action
+            type
+            payload
+        disptch method
+
+        reducer functions
+
+*/
